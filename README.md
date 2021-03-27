@@ -5,7 +5,7 @@ Chrome:
 Sources/media/pr0gramm.min.js?914594d6
 Speichern! STRG+S
 
-Anschlißend einen Chip setzten (Schwarz, Rot, Odd, Even) und wieder vom Spielfeld nehmen.
+Anschlißend einen Chip setzen (Schwarz, Rot, Odd, Even) und wieder vom Spielfeld nehmen.
 Rechtsklick auf Class{data:...} und:
   "Store object as global variable"
  
