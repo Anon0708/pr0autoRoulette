@@ -1,6 +1,8 @@
+let start_bet = 1;
+let max_bet = 64;
+
 let bet_input = 0;
 let history_length = 0;
-let max_bet = 64;
 setInterval(async () => {
     history_length = document.getElementById("history").children
     if(!document.getElementById('spin').disabled && temp1.getFields().red == undefined) {
@@ -17,14 +19,14 @@ setInterval(async () => {
             let bet_int = parseInt(res)
 
             if(win_int > 0) {
-                bet_input = 1
+                bet_input = start_bet
             }
             else {
                 if(bet_input < max_bet) {
                     bet_input  = bet_int * 2
                 }
                 else {
-                    bet_input = 1
+                    bet_input = start_bet
                 }
             }
             document.getElementById("bet").value = bet_input
