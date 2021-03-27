@@ -1,6 +1,6 @@
 # pr0autoRoulette
 
-Ersetzten vom inhalt der pro_js.js in pr0gramm.min.js?914594d6
+Ersetzen den Inhalt von pr0gramm.min.js?914594d6 mit pro_js.js 
 Chrome:
 Sources/media/pr0gramm.min.js?914594d6
 Speichern! STRG+S
